@@ -6,7 +6,6 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
               'Washington': 'washington.csv' }
 
-
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -19,12 +18,10 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
-
     city = input('Would you like to see the data for Chicago, New York or Washington? ').title()
     while city not in ['Chicago', 'New York', 'Washington']:
         print('Please try again')
         city = input('Would you like to see the data for Chicago, New York or Washington? ').title()
-
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Which month would you like to see (January - June)? ').title()
@@ -139,7 +136,6 @@ def user_stats(df):
         user_types = df['User Type'].value_counts()
         print('\nUser Types: \n{}'.format(user_types))
 
-
     # TO DO: Display counts of gender
         gender_types = df['Gender'].value_counts()
         print('\nGender types: \n{}'.format(gender_types))
@@ -166,7 +162,6 @@ def raw_input(df):
     start_loc = 0
     stop_loc = 4
 
-
     while view_data == 'yes':
         if view_data == 'no':
             break
@@ -189,7 +184,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
