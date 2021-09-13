@@ -4,10 +4,10 @@
 09/12/2021
 
 ### Project Title
-Udacity - Project 3: Post your Work on GitHub
+US Bikeshare Data 
 
 ### Description
-Assert Mimi's knowledge of version control
+Interactive app to investigate data of US Bikeshare.
 
 ### Files used
 bikeshare.py - Python codes to investigate US Bikeshare data
