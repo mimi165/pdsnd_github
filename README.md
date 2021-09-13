@@ -13,4 +13,9 @@ Assert Mimi's knowledge of version control
 bikeshare.py - Python codes to investigate US Bikeshare data
 
 ### Credits
-Credits go to Richard and Udacity for creating this great course!
+Credits go to Udacity and its great team of instructors for creating this awesome course!
+*Derek Steer
+*Karl Krueger
+*Juno Lee
+*Richard Kalehoff
+*Ruchi Bhanot
